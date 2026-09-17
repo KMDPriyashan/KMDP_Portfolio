@@ -3,7 +3,7 @@ import {
   SiTypescript,
   SiNodedotjs,
   SiPython,
-  SiAmazonaws,
+  SiGooglecloud,
   SiDocker,
   SiPostgresql,
   SiRedis,
@@ -45,7 +45,7 @@ export const skills: Skill[] = [
   },
   {
     name: "AWS Cloud",
-    icon: SiAmazonaws,
+    icon: SiGooglecloud,
     color: "#f59e0b",
     mastery: 85,
     categories: ["cloud"],
