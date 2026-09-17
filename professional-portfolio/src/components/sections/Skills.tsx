@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { skills } from "@/data/skills";
 import { cn } from "@/lib/utils";
 
+
 const filters = [
   { key: "all", label: "All Skills" },
   { key: "frontend", label: "Frontend" },
