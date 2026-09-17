@@ -64,7 +64,7 @@ export default function Hero({ onTerminalOpen, onToast }: HeroProps) {
           >
             <a
               href="#projects"
-              className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-xl bg-gradient-to-r from-brand-500 via-blue-600 to-accent-purple text-white font-semibold text-xs sm:text-sm shadow-xl shadow-brand-500/25 hover:shadow-brand-500/40 hover:scale-[1.02] transition-all flex items-center gap-2"
+              className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-xl  from-brand-500 via-blue-600 to-accent-purple text-white font-semibold text-xs sm:text-sm shadow-xl shadow-brand-500/25 hover:shadow-brand-500/40 hover:scale-[1.02] transition-all flex items-center gap-2"
             >
               Explore Featured Work
               <FaArrowRight className="text-[10px]" />
