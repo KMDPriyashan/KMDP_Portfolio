@@ -5,10 +5,9 @@ import { profile } from "@/data/profile";
 
 interface HeroProps {
   onTerminalOpen: () => void;
-  onToast: (msg: string) => void;
 }
 
-export default function Hero({ onTerminalOpen, onToast }: HeroProps) {
+export default function Hero({ onTerminalOpen }: HeroProps) {
   return (
     <section
       id="hero"
@@ -50,7 +49,7 @@ export default function Hero({ onTerminalOpen, onToast }: HeroProps) {
             transition={{ delay: 0.2 }}
             className="text-slate-400 text-sm sm:text-base lg:text-lg max-w-2xl leading-relaxed"
           >
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <strong className="text-white font-semibold">{profile.name}</strong>
             . {profile.intro}
           </motion.p>
@@ -144,14 +143,14 @@ export default function Hero({ onTerminalOpen, onToast }: HeroProps) {
                 <span className="text-accent-purple">interface</span>{" "}
                 <span className="text-yellow-400">Engineer</span> {"{"}
                 {"\n"} name:{" "}
-                <span className="text-emerald-400">'Kasun Perera'</span>;
+                <span className="text-emerald-400">&apos;Kasun Perera&apos;</span>;
                 {"\n"} role:{" "}
                 <span className="text-emerald-400">
-                  'Senior Full-Stack Architect'
+                  &apos;Senior Full-Stack Architect&apos;
                 </span>
                 ;{"\n"} experienceYears:{" "}
                 <span className="text-orange-400">6+</span>;{"\n"} currentFocus:{" "}
-                <span className="text-emerald-400">'Cloud Native'</span>;{"\n"}
+                <span className="text-emerald-400">&apos;Cloud Native&apos;</span>;{"\n"}
                 {"}"}
               </code>
             </pre>

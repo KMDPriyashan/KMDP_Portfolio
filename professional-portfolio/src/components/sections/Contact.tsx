@@ -61,7 +61,7 @@ export default function Contact({ onToast }: ContactProps) {
               Get In Touch
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white mt-2">
-              Let's Build Something Great Together
+              Let&apos;s Build Something Great Together
             </h2>
             <p className="text-slate-400 text-xs sm:text-sm mt-4 leading-relaxed">
               I am currently open to high-impact Senior Full-Stack / Lead

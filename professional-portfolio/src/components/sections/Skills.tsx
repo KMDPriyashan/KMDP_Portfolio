@@ -13,12 +13,12 @@ const filters = [
 ] as const;
 
 export default function Skills() {
-  const [active, setActive] = useState<string>("all");
+  const [active, setActive] = useState<(typeof filters)[number]["key"]>("all");
 
   const filtered =
     active === "all"
       ? skills
-      : skills.filter((s) => s.categories.includes(active as any));
+      : skills.filter((s) => s.categories.includes(active));
 
   return (
     <section

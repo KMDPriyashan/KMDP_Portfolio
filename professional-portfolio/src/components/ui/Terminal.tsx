@@ -163,11 +163,11 @@ LinkedIn: https://linkedin.com/in/kasun-perera`,
               className="p-3 sm:p-4 font-mono text-xs sm:text-sm text-slate-200 overflow-y-auto flex-1 space-y-1"
             >
               <p className="text-emerald-400">
-                Welcome to Kasun's Interactive Resume CLI v2.4.0!
+                Welcome to Kasun&apos;s Interactive Resume CLI v2.4.0!
               </p>
               <p className="text-slate-400">
                 Type{" "}
-                <span className="text-brand-400 font-bold">'help'</span> to
+                <span className="text-brand-400 font-bold">&apos;help&apos;</span> to
                 view available commands.
               </p>
               {lines.map((line, i) => (

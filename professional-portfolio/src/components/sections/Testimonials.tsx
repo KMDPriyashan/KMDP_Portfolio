@@ -27,7 +27,7 @@ export default function Testimonials() {
           >
             <FaQuoteLeft className="text-2xl sm:text-3xl text-brand-500/30 absolute top-5 sm:top-6 right-5 sm:right-6" />
             <p className="text-slate-300 text-xs sm:text-sm italic leading-relaxed">
-              "{t.quote}"
+              &quot;{t.quote}&quot;
             </p>
             <div className="flex items-center gap-3 sm:gap-4 mt-6 pt-6 border-t border-slate-800">
               <div
