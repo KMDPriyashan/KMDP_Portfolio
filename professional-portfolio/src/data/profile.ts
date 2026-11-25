@@ -10,7 +10,7 @@ export const profile = {
   location: "Gampaha, Sri Lanka",
   availability: "Gampaha, Sri Lanka (Available Remote / Relocation)",
   status: "Open to Associate Software Engineering Opportunities",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/K.M Dulash Priyashan - CV.pdf",
   stats: {
     years: "3+",
     projects: "45+",

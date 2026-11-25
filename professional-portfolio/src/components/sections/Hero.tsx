@@ -89,7 +89,7 @@ export default function Hero({ onTerminalOpen }: HeroProps) {
             </a>
             <a
               href={profile.resumeUrl}
-              download
+              download="K.M Dulash Priyashan - CV.pdf"
               className="inline-flex items-center gap-2 rounded-xl bg-slate-900/80 px-4 py-3 transition-colors hover:bg-slate-800"
             >
               <FaFileDownload className="text-cyan-300" />
