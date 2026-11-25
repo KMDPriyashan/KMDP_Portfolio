@@ -22,7 +22,7 @@ export interface Project {
   id: number;
   title: string;
   slug: string;
-  category: "fullstack" | "ai" | "mobile";
+  category: "fullstack" | "ai" | "mobile" | "frontend" | "desktop";
   previewTitle: string;
   previewSubtitle: string;
   previewStats: { left: string; right: string };

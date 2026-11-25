@@ -22,6 +22,7 @@ const config: Config = {
           green: "#10b981",
           purple: "#8b5cf6",
           cyan: "#06b6d4",
+          red: "#ee2000"
         },
       },
       fontFamily: {

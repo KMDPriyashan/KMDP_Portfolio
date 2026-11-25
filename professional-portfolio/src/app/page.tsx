@@ -28,7 +28,7 @@ export default function Home() {
       <Navbar onTerminalOpen={() => setTerminalOpen(true)} />
 
       <main className="relative">
-        <Hero onTerminalOpen={() => setTerminalOpen(true)} onToast={show} />
+        <Hero onTerminalOpen={() => setTerminalOpen(true)} />
         <StatsBar />
         <About />
         <Skills />

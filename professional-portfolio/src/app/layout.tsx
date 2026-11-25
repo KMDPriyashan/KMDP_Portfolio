@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kasun Perera | Senior Software Engineer Portfolio",
+  title: "Dulash Priyashan | Senior Software Engineer Portfolio",
   description:
     "Senior Full-Stack Software Engineer specializing in cloud architecture, Next.js, React, and distributed systems.",
   keywords: [
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     "portfolio",
     "sri lanka",
   ],
-  authors: [{ name: "Kasun Perera" }],
+  authors: [{ name: "Dulash Priyashan" }],
   openGraph: {
-    title: "Kasun Perera | Senior Software Engineer",
+    title: "Dulash Priyashan | Senior Software Engineer",
     description:
       "Senior Full-Stack Software Engineer with 6+ years of experience.",
     type: "website",
