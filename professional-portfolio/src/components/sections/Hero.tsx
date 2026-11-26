@@ -67,7 +67,7 @@ export default function Hero({ onTerminalOpen }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base lg:text-lg"
+            className="max-w-2xl text-sm mt-4 leading-relaxed text-slate-300 sm:text-base lg:text-lg"
           >
             Hi, I&apos;m{" "}
             <strong className="font-semibold text-white">{profile.name}</strong>,
@@ -154,7 +154,7 @@ export default function Hero({ onTerminalOpen }: HeroProps) {
             aria-hidden="true"
             className="absolute right-0 top-[43%] z-10 rounded-xl border border-blue-400/40 bg-slate-950/85 px-4 py-2.5 font-mono text-sm font-bold text-white shadow-[0_0_24px_rgba(59,130,246,0.15)]"
           >
-            intelij
+            Intelij
           </div>
           <div
             aria-hidden="true"

@@ -9,7 +9,9 @@ import { cn } from "@/lib/utils";
 const filters = [
   { key: "all", label: "All Works" },
   { key: "fullstack", label: "Full-Stack" },
+  { key: "desktop", label: "Desktop Apps" },
   { key: "ai", label: "AI & Cloud" },
+  { key: "frontend", label: "Frontend" }
 ] as const;
 
 interface ProjectsProps {
