@@ -3,18 +3,18 @@ import { Testimonial } from "@/types";
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Kasun is an exceptionally skilled engineer. His ability to break down complex cloud architecture challenges and deliver clean, scalable TypeScript code on tight deadlines was instrumental to our enterprise release.",
-    name: "Jason Miller",
-    role: "VP of Engineering @ TechCorp USA",
-    initials: "JD",
+      "As a discerning IT undergraduate, he navigates the complexities of Information Technology with an innate cleverness, embracing a journey of comprehensive education in this ever-evolving field.",
+    name: "Mis. Sandali maleesha",
+    role: "Lecturer in @ GWUIM",
+    initials: "SM",
     gradient: "from-brand-500 to-purple-500",
   },
   {
     quote:
       "Top 1% developer talent. Kasun not only writes top-quality frontend code with Next.js, but also deeply understands database optimization and microservice resiliency.",
-    name: "Sarah Roberts",
-    role: "Lead Architect @ Fintech Lanka",
-    initials: "SR",
+    name: "Ms. Naduni Ranasinghe",
+    role: "Seniour Lecture @ GWUIM",
+    initials: "SM",
     gradient: "from-accent-purple to-pink-500",
   },
 ];
