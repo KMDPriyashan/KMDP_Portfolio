@@ -1,25 +1,50 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaMicrochip, FaLaptopCode, FaRocket } from "react-icons/fa";
+import {
+  FaLaptopCode,
+  FaDatabase,
+  FaDesktop,
+  FaBrain,
+  FaSearchPlus,
+  FaCodeBranch,
+} from "react-icons/fa";
 
 const pillars = [
   {
-    icon: FaMicrochip,
-    title: "System Architecture",
-    desc: "Designing resilient, scalable cloud systems, REST/GraphQL APIs, microservices, and event-driven architectures using AWS and Kubernetes.",
+    icon: FaLaptopCode,
+    title: "Full-Stack Web & Mobile Development",
+    desc: "Building clean, responsive web applications and cross-platform mobile apps with practical user flows, smooth UI, and reliable backend integration.",
     color: "brand",
   },
   {
-    icon: FaLaptopCode,
-    title: "Full-Stack Development",
-    desc: "Crafting responsive, high-performance web frontends with React & Next.js alongside robust backend microservices in Node.js, TypeScript, and Go.",
+    icon: FaDatabase,
+    title: "Backend APIs & Database Design",
+    desc: "Designing structured relational database schemas (ER diagrams) and building maintainable backend services and REST APIs with clean data handling.",
     color: "purple",
   },
   {
-    icon: FaRocket,
-    title: "DevOps & CI/CD Pipeline",
-    desc: "Automating build, test, and release pipelines with Docker, GitHub Actions, Terraform, and continuous integration workflows for instant deployment.",
+    icon: FaDesktop,
+    title: "Desktop & Management Systems",
+    desc: "Developing practical desktop applications and management systems with structured workflows, CRUD operations, and reliable data persistence.",
     color: "green",
+  },
+  {
+    icon: FaBrain,
+    title: "Applied AI & Computer Vision",
+    desc: "Exploring practical AI and computer vision solutions—such as image recognition, detection workflows, and AI-assisted features—for real-world problem solving.",
+    color: "cyan",
+  },
+  {
+    icon: FaSearchPlus,
+    title: "UI Clarity & Product Review",
+    desc: "Evaluating websites and digital products from a user's perspective to spot usability gaps, layout issues, and actionable improvements.",
+    color: "amber",
+  },
+  {
+    icon: FaCodeBranch,
+    title: "Problem Solving & Clean Code",
+    desc: "Breaking down requirements step by step, writing readable and modular code, and continuously refining features through hands-on iteration.",
+    color: "rose",
   },
 ];
 
@@ -41,6 +66,24 @@ const colorMap = {
     border: "border-emerald-500/30",
     text: "text-emerald-400",
     hover: "hover:border-emerald-500/50",
+  },
+  cyan: {
+    bg: "bg-cyan-500/10",
+    border: "border-cyan-500/30",
+    text: "text-cyan-400",
+    hover: "hover:border-cyan-500/50",
+  },
+  amber: {
+    bg: "bg-amber-500/10",
+    border: "border-amber-500/30",
+    text: "text-amber-400",
+    hover: "hover:border-amber-500/50",
+  },
+  rose: {
+    bg: "bg-rose-500/10",
+    border: "border-rose-500/30",
+    text: "text-rose-400",
+    hover: "hover:border-rose-500/50",
   },
 };
 
@@ -75,8 +118,8 @@ export default function About() {
           transition={{ delay: 0.2 }}
           className="text-slate-400 mt-4 text-sm sm:text-base"
         >
-          I bridge the gap between complex software architecture and
-          user-centric web products.
+          I bridge the gap between structured software design and practical,
+          user-centric digital products.
         </motion.p>
       </div>
 
@@ -89,7 +132,7 @@ export default function About() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.15 }}
+              transition={{ delay: i * 0.1 }}
               className={`glass-card rounded-2xl p-6 sm:p-8 ${c.hover} transition-all duration-300 hover:-translate-y-2 group`}
             >
               <div

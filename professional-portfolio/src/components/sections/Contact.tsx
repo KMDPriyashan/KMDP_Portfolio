@@ -64,8 +64,7 @@ export default function Contact({ onToast }: ContactProps) {
               Let&apos;s Build Something Great Together
             </h2>
             <p className="text-slate-400 text-xs sm:text-sm mt-4 leading-relaxed">
-              I am currently open to high-impact Senior Full-Stack / Lead
-              Engineer positions, technical consulting, and architectural roles.
+              I am currently open to associate software engineer and full stack developer opportunities, collaborative enginner teams, and practical project work.
             </p>
           </div>
 
@@ -193,7 +192,7 @@ export default function Contact({ onToast }: ContactProps) {
               className="w-full py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-brand-500 via-blue-600 to-accent-purple text-white font-bold text-xs sm:text-sm tracking-wide shadow-xl shadow-brand-500/20 hover:opacity-95 hover:scale-[1.01] transition-all flex items-center justify-center gap-2"
             >
               <FaPaperPlane />
-              <span>Send Message to Kasun</span>
+              <span>Send Message to Dulash</span>
             </button>
           </form>
         </motion.div>

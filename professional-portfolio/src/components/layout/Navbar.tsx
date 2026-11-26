@@ -33,7 +33,7 @@ export default function Navbar({ onTerminalOpen }: NavbarProps) {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-40 px-3 sm:px-6 lg:px-8 transition-all duration-300",
-        scrolled ? "py-2" : "py-3 sm:py-4"
+        scrolled ? "py-2" : "py-2 sm:py-3"
       )}
     >
       <div
@@ -49,10 +49,10 @@ export default function Navbar({ onTerminalOpen }: NavbarProps) {
           </div>
           <div className="flex flex-col">
             <span className="font-bold tracking-tight text-white text-sm sm:text-base group-hover:text-brand-400 transition-colors">
-              Kasun Perera
+              Dulash Priyashan
             </span>
             <span className="text-[10px] sm:text-xs text-slate-400 font-mono hidden xs:block">
-              Senior Full-Stack Engineer
+              Full-Stack Software Engineer
             </span>
           </div>
         </a>
